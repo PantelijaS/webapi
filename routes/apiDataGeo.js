@@ -19,7 +19,7 @@ router.get('/api', auth, async (req, res) => {
     } else {
       result.forEach(element => {
         var unitName = element.unitName
-        // getRequestGeo(unitName);  // potrebno je odkomentarista kad se zavrsi aplikacija
+        getRequestGeo(unitName);  // potrebno je odkomentarista kad se zavrsi aplikacija
 
       });
     }
