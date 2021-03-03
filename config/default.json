@@ -1,0 +1,7 @@
+{
+    "mongoUrl": "mongodb://localhost:27017/",
+    "username":"Admin",
+    "pass":"123456",
+    "apiKey":"AIzaSyDp4tlgYE81eCwpkpY-5ODiwsMel4tkjCc",
+    "jwtSecret": "topJwtSecret"
+}
